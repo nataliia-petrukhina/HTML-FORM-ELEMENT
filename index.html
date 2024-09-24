@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formular</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML FORM ELEMENT</h1>
+      <!-- required -->
+    </header>
+    <main>
+      <section>
+        <form action="https://duckduckgo.com/" method="get">
+          <input type="text" name="q" />
+          <button>absenden</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>User Registration</h2>
+        <form action="">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+
+          <label class="check" for>Rot</label>
+          <input type="checkbox" />
+
+          <label for="">Yes</label>
+          <input type="radio" name="yes" id="radio" />
+          <label for="">No</label>
+          <input type="radio" name="yes" id="radio2" />
+
+          <input type="button" value="Absenden" />
+        </form>
+      </section>
+
+      <section>
+        <form action="">
+          <label for="animal">Tiersauwahl</label>
+          <select name="" id="animal">
+            <option value="hund">Hund</option>
+            <option value="hase">Hase</option>
+            <option value="fuchs">Fuchs</option>
+
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment" rows="3" cols="13"></textarea>
+            <input type="date" />
+          </select>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
